@@ -1,4 +1,4 @@
-# Instalador Whaticket SaaS
+# Instalador Whaticket
 
 Substituimos a instalação do docker por um comando único para maior compatibilidade com as diferentes arquiteturas de servidores. 
 i386, arm64, x86_64 / 64 Bits.
@@ -9,13 +9,13 @@ Modificamos para que o PostgreSQL seja instalado sem problemas em diferentes arq
 sudo apt -y update && apt -y upgrade
 ```
 
-FAZENDO DOWNLOAD DO INSTALADOR & INICIANDO A PRIMEIRA INSTALAÇÃO (USAR SOMENTE PARA PRIMEIRA INSTALAÇÃO):
+PASSO 1 - DOWNLOAD DO INSTALADOR & INICIANDO A PRIMEIRA INSTALAÇÃO (USAR SOMENTE PARA PRIMEIRA INSTALAÇÃO):
 
 ```bash
-sudo apt install -y git && git clone https://github.com/launcherbr/instalador.git instalador && sudo chmod -R 777 instalador  && cd instalador  && sudo ./install_primaria
+sudo apt install -y git && git clone https://github.com/atendezap/instalador.git instalador && sudo chmod -R 777 instalador  && cd instalador  && sudo ./install_primaria
 ```
 
-ACESSANDO DIRETORIO DO INSTALADOR & INICIANDO INSTALAÇÕES ADICIONAIS (USAR ESTE COMANDO PARA SEGUNDA OU MAIS INSTALAÇÃO:
+PASSO 2 - DIRETORIO DO INSTALADOR & INICIANDO INSTALAÇÕES ADICIONAIS // COMANDO PARA SEGUNDA OU MAIS INSTALAÇÃO:
 
 ```bash
 cd instalador  && sudo ./install_instancia
