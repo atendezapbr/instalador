@@ -12,7 +12,7 @@ sudo apt -y update && apt -y upgrade
 PASSO 1 - DOWNLOAD DO INSTALADOR & INICIANDO A PRIMEIRA INSTALAÇÃO (USAR SOMENTE PARA PRIMEIRA INSTALAÇÃO):
 
 ```bash
-sudo apt install -y git && git clone https://github.com/atendezap/instalador.git instalador && sudo chmod -R 777 instalador  && cd instalador  && sudo ./install_primaria
+sudo apt install -y git && git clone https://github.com/atendezapbr/instalador.git instalador && sudo chmod -R 777 instalador  && cd instalador  && sudo ./install_primaria
 ```
 
 PASSO 2 - DIRETORIO DO INSTALADOR & INICIANDO INSTALAÇÕES ADICIONAIS // COMANDO PARA SEGUNDA OU MAIS INSTALAÇÃO:
