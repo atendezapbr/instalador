@@ -22,8 +22,6 @@ print_banner() {
 
   printf "\n"
 
-  printf "${GREEN}";
-  Instalando o AtendeZap
-  printf "${NC}";
+  printf "${GREEN}" Instalando o AtendeZap;
   printf "\n"
 }
